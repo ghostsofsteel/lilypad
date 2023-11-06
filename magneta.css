@@ -1,0 +1,448 @@
+/*
+  Free to use CSS template by Katie (#106445).
+  This code may be altered, edited, or re-uploaded. 
+  This template may be used to create paid codes (pre-mades and commissions).
+  Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://cdn.discordapp.com/attachments/846565780212023300/1022575624088473600/IMG_6945.gif') center center fixed;
+	background-size: 100%;
+	font-family: 'Space Mono', monospace;
+	color: #e7c9f2;
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(160, 52, 199, 0.6) !important;
+	color: #e7c9f2 !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+.credit {
+	background: rgba(160, 52, 199, 0.6);
+	color: #e7c9f2;
+	padding: 10px;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 0px;
+	bottom: 0px;
+	width: 240px;
+	height: 40px;
+	overflow: auto;
+}
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: rgba(160, 52, 199, 0.6);
+	border: none;
+	border-top: none;
+	color: #e7c9f2;
+	border-radius: 5px;
+	font-family: 'Space Mono', monospace;
+}
+
+.navbar {
+	background: rgba(160, 52, 199, 0.6);
+	border-bottom: none;
+	font-family: 'Space Mono', monospace;
+	color: #e7c9f2;
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: #e7c9f2 !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: rgba(160, 52, 199, 0.6) !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(160, 52, 199, 0.6);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(160, 52, 199, 0.6);
+}
+
+.breadcrumb .active {
+	color: #e7c9f2;
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: rgba(160, 52, 199, 0.6);
+	border: none;
+	color: #e7c9f2;
+}
+
+.alert-warning,
+.alert-danger {
+	background: rgba(160, 52, 199, 0.6);
+	color: #e7c9f2;
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(160, 52, 199, 0.6);
+	border: none;
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: rgba(160, 52, 199, 0.6) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #e7c9f2 !important;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(160, 52, 199, 0.6);
+	color: #e7c9f2 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #e7c9f2 !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(160, 52, 199, 0.6);
+	color: #e7c9f2 !important;
+}
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: rgba(160, 52, 199, 0.6) !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: rgba(160, 52, 199, 0.6) !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: rgba(160, 52, 199, 0.6) !important;
+	color: #e7c9f2 !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #e7c9f2 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: rgba(160, 52, 199, 0.6) !important;
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #e7c9f2;
+	font-size: 72px;
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #e7c9f2;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #e7c9f2 !important;
+	font-size: 14px !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	background: rgba(160, 52, 199, 0.6);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top,
+.bottom,
+th {
+	background: rgba(160, 52, 199, 0.6) !important;
+	color: #e7c9f2 !important;
+	border-radius: 5px;
+}
+
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: rgba(160, 52, 199, 0.6)
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input,
+select,
+textarea {
+	background: rgba(160, 52, 199, 0.6) !important;
+	border: none !important;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: none !important;
+	color: black !important;
+	text-shadow: none !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(160, 52, 199, 0.6) !important;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgba(160, 52, 199, 0.6)
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(160, 52, 199, 0.6) !important;
+	color: #e7c9f2  !important;
+}
+
+.item {
+	background: rgba(160, 52, 199, 0.6) !important;
+	border: none !important;
+}
+
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+.sub_menu {
+	background: rgba(160, 52, 199, 0.6) !important;
+}
+
+.sub_menu_item_selected {
+	background: rgba(160, 52, 199, 0.6) !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(160, 52, 199, 0.6);
+	border: none !important;
+}
+
+
+/* LINKS & LINK HOVER COLOR */
+
+a:link,
+a:visited {
+	color: #e7c9f2 !important;
+}
+
+a:hover {
+	color: #e7c9f2 !important;
+}
+
+
+/* BOXES (Copy paste to add more or less) */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.Box1 {
+	float: left;
+	background: rgba(160, 52, 199, 0.6);
+	color: #e7c9f2 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: auto;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */7
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box1:hover {
+	overflow-y: auto;
+}
+
+.Box2 {
+	float: left;
+	background: rgba(160, 52, 199, 0.6);
+	color: #e7c9f2 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box2:hover {
+	overflow-y: auto;
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #e7c9f2;
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #e7c9f2;
+	border-radius: 4px;
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 0.6;
+}
+
+table#player img {
+	opacity: 0.6;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+}
+
+table#player img {
+	border-radius: 75% !important;
+	overflow: hidden;
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://cdn.discordapp.com/attachments/846565780212023300/1022576380514410586/logomagneta.png');
+}
+
+
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+	content: url('https://pa1.narvii.com/6507/55b8087bfdb14bf36afa07dd513e036252527e84_hq.gif')!important;
+}
+
+
+
+
+/* MOUNDS */
+
+.mound-grid img {
+	background: url('https://cdn.discordapp.com/attachments/846565780212023300/1022576096375480421/mushrrom.png');
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-3/hol220.cur), auto !important;} /* End https://www.cursors-4u.com */
